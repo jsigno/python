@@ -14,3 +14,24 @@ print(full_name)
 width, heigth = 400, 500
 print(width)
 print(heigth)
+# naming multiple = variable at once 
+
+yourName = input("enter your name: ")
+print("hi " + yourName)
+
+num1 = input("enter your number: ") 
+num2 = input("enter your number: ")
+print(num1 + num2) 
+# this will not add them together but combine them as strings
+print(int(num1) + int(num2))
+
+# DATA TYPES
+# strings
+# int, float (numbers)
+# lists
+# dictionaries
+
+# Strings -> "hello", "cookie" 
+
+
+
