@@ -29,10 +29,19 @@ def greeting(greet, name):
 '''
 Takes two integers and, returns their sum
 '''
-
 def sum(a,b):
     return a + b
 num = sum(3,4)
 # print(num)
 # print(sum(6,2))
 
+'''
+Tip Calculator PT.2
+'''
+def foodTotal(amount, tip):
+    tip_amount = amount*(tip/100)
+    # print(tip_amount)
+    total = tip_amount+amount
+    # print(total)
+    return total
+print(foodTotal(100,20))
