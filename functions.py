@@ -29,7 +29,7 @@ def greeting(greet, name):
 '''
 Takes two integers and, returns their sum
 '''
-def sum(a,b):
+def sum(a: int,b: int):
     return a + b
 num = sum(3,4)
 # print(num)
@@ -38,7 +38,7 @@ num = sum(3,4)
 '''
 Tip Calculator PT.2
 '''
-def foodTotal(amount, tip):
+def foodTotal(amount: float, tip: int):
     tip_amount = amount*(tip/100)
     # print(tip_amount)
     total = tip_amount+amount
@@ -50,8 +50,7 @@ def foodTotal(amount, tip):
 '''
 Weather PT.2
 '''
-
-def what_to_wear(weather):
+def what_to_wear(weather: str):
     if weather == "rain":
         print("umbrella")
     elif weather == "cloudy":
@@ -59,4 +58,16 @@ def what_to_wear(weather):
     else:
         print("sunglasses")
 
-what_to_wear("rain")
+# what_to_wear("rain")
+
+'''
+Bigger Guy
+Write a function that takes in two numbers and chooses the bigger one
+'''
+
+def bigger(a:int,b:int):
+    if a > b:
+        return a
+    else:
+        return b
+print(bigger(3,6))
