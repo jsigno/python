@@ -64,10 +64,12 @@ def what_to_wear(weather: str):
 Bigger Guy
 Write a function that takes in two numbers and chooses the bigger one
 '''
-
 def bigger(a:int,b:int):
     if a > b:
         return a
     else:
         return b
 print(bigger(3,6))
+
+
+
