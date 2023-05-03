@@ -44,4 +44,19 @@ def foodTotal(amount, tip):
     total = tip_amount+amount
     # print(total)
     return total
-print(foodTotal(100,20))
+# print(foodTotal(amount=100,tip=20))
+# print(foodTotal(100,20))
+
+'''
+Weather PT.2
+'''
+
+def what_to_wear(weather):
+    if weather == "rain":
+        print("umbrella")
+    elif weather == "cloudy":
+        print("hat")
+    else:
+        print("sunglasses")
+
+what_to_wear("rain")
