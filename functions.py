@@ -24,3 +24,15 @@ def greeting(greet, name):
 
 # named arguments
 # greeting(greet="hello", name="david")
+
+
+'''
+Takes two integers and, returns their sum
+'''
+
+def sum(a,b):
+    return a + b
+num = sum(3,4)
+# print(num)
+# print(sum(6,2))
+
